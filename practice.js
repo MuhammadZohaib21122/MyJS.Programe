@@ -102,23 +102,54 @@
 // companies.push("Amazon")
 // console.log(companies);
 
-//Q7 :  count vowels in strings
-let str = prompt("Enter your string .....") 
-while (str >= 0) {
-  str = prompt("Please enter only english string ...")
-}
- function countVowels(str) {
-      let count = 0;
-      for (const char of str) {
-        if (char === "a" || 
-          char === "e" ||
-           char === "i" || 
-           char === "o" || 
-           char === "u" )
-            {
-          count++;
-        }
-      }
-      console.log(count,"Vowels are present in your string","Your string is ..",str)
-    }
-countVowels(str)
+// //Q7 :  count vowels in strings
+// let str = prompt("Enter your string .....") 
+// while (str >= 0) {
+//   str = prompt("Please enter only english string ...")
+// }
+//  function countVowels(str) {
+//       let count = 0;
+//       for (const char of str) {
+//         if (char === "a" || 
+//           char === "e" ||
+//            char === "i" || 
+//            char === "o" || 
+//            char === "u" )
+//             {
+//           count++;
+//         }
+//       }
+//       console.log(count,"Vowels are present in your string","Your string is ..",str)
+//     }
+// countVowels(str);
+
+// in arrow function 
+
+// let str1 = prompt("Enter your string .....") 
+// while (str1 >= 0) {
+//   str1 = prompt("Please enter only english string ...")
+// }
+// const countVow =(str1) =>{
+//   let count = 0;
+//   for (const char of str1) {
+//     if (char === "a" || 
+//       char === "e" ||
+//        char === "i" || 
+//        char === "o" || 
+//        char === "u" )
+//         {
+//       count++;
+//     }
+//   }
+//   console.log(count,"Vowels are present in your string","Your string is ..",str1)
+// }
+// countVow(str1);
+
+// ForEach Loop in Arrays 
+
+let  city = ["Punjab","Attock","Hazro","Multan","Lahore","Karachi","Kashmir"];
+ 
+city.forEach((val, ind, city) =>{
+
+ console.log(val.toUpperCase() ,ind,city)
+})
