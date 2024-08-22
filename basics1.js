@@ -1,3 +1,7 @@
+// refresh button  function 
+function refreshPage() {
+    location.reload();
+  }
 // const student={
 //     fullName : "MuhammadZohaib",
 //     age : 19,
@@ -74,5 +78,12 @@ let studentn =["Muhammad Zohaib","Hamza","Ali","Abass","Jalal","Farhan"];
 
 // Splice methode      array.splice(index,number of index for delete,new index add)
 
-studentn.splice(1,2,"Muhaan");
-console.log(studentn);
+// studentn.splice(1,2,"Muhaan");
+// console.log(studentn);
+
+// Array methods   Map
+let array =[32,45,67,87,54,22,53,56,92];
+let newarray = array.map((num)=>{
+return num*2;
+});
+console.log(newarray);
