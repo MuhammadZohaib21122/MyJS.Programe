@@ -50,16 +50,16 @@
 // console.log("Size is = ", size);
 
 
-// for- in loop        for
+// // for- in loop        for
 
-const student={
-    fullName : "MuhammadZohaib",
-    age : 19,
-    rollNo : 34,
-    samaster : 2,
-    cGPA : 3.21
+// const student={
+//     fullName : "MuhammadZohaib",
+//     age : 19,
+//     rollNo : 34,
+//     samaster : 2,
+//     cGPA : 3.21
 
-}
-for (const i in student) {              //they are pick only object keys or value
-     console.log("Key  = ",i,"Value = ", student[i]);
-}
+// }
+// for (const i in student) {              //they are pick only object keys or value
+//      console.log("Key  = ",i,"Value = ", student[i]);
+// }
