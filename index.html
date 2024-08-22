@@ -6,20 +6,28 @@
     <title> Document </title>
 
     <style>
+         body {
+            background-image: url('background.jpg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat; 
+            margin: 0; 
+            height: 100vh;
+        }
         button{
             border: 2px solid black;
-            border-radius: 8px;
-            color: rgb(0, 4, 255);
-            background-color: rgb(255, 0, 234);
+            border-radius: 10px;
+            color: rgb(255, 255, 255);
+            background-color: rgb(4, 161, 17);
+            padding: 10px 20px;
+            cursor: pointer;
         }
     </style>
 
 </head>
 <body>
-    <button
-    onClick= 'alert("hello")'>Button
-</button>
-    
+    <button onclick="refreshPage()">Refresh</button>
 </body>
-<script src="practice.js"></script>
+
+<script src="basics1.js"></script>
 </html>
