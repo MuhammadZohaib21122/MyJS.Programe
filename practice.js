@@ -123,7 +123,7 @@
 //     }
 // countVowels(str);
 
-// in arrow function 
+// //in arrow function 
 
 // let str1 = prompt("Enter your string .....") 
 // while (str1 >= 0) {
@@ -145,11 +145,26 @@
 // }
 // countVow(str1);
 
-// ForEach Loop in Arrays 
+// // ForEach Loop in Arrays 
 
-let  city = ["Punjab","Attock","Hazro","Multan","Lahore","Karachi","Kashmir"];
+// let  city = ["Punjab","Attock","Hazro","Multan","Lahore","Karachi","Kashmir"];
  
-city.forEach((val, ind, city) =>{
+// city.forEach((val, ind) =>{
 
- console.log(val.toUpperCase() ,ind,city)
-})
+//  console.log(val.toUpperCase() ,ind)
+// });
+
+// refresh button  function 
+function refreshPage() {
+  location.reload();
+}
+
+// Q: print array each number squarr using For-Each loop.
+
+let numberA = [2,5,6,3,6,9,8];
+// let calcSquare = (num)=>{
+//   console.log("Square = ",num*2)}
+
+//   numberA.forEach(calcSquare)
+numberA.forEach((num)=>{
+  console.log("Square = ",num*2)})
