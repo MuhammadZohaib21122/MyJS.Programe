@@ -81,9 +81,26 @@ let studentn =["Muhammad Zohaib","Hamza","Ali","Abass","Jalal","Farhan"];
 // studentn.splice(1,2,"Muhaan");
 // console.log(studentn);
 
-// Array methods   Map
-let array =[32,45,67,87,54,22,53,56,92];
-let newarray = array.map((num)=>{
-return num*2;
-});
-console.log(newarray);
+// // Array methods   Map
+// let array =[32,45,67,87,54,22,53,56,92];
+// let newarray = array.map((num)=>{
+// return num*2;
+// });
+// console.log(newarray);
+
+// // Array method    Filter 
+// let arrayn = [1,3,55,67,5,6,77,4,58,79,453,68,97,86,64,8,97,6,4,6,578,69,79,7,8686,6,44,6,78,87,5,75,8,757,7,5]
+
+// let evenarray = arrayn.filter((num)=>{
+//   return num %2 === 0 ;
+// })
+// console.log(evenarray);
+
+// // Array method    Reduce
+let arr =[1,2,3,4]
+let result = arr.reduce((arrn ,current ) => {
+  //return arrn + current ;
+  return arrn > current ? arrn : current;   // find bigest value 
+})
+console.log(result)
+  
