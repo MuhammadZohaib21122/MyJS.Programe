@@ -195,7 +195,7 @@ console.log("Sum = ",sum);
 
 // Factorial of n 
 
-let mult = arr.reduce((result , current) => {
-  return result * current;
-})
-console.log("Multiplay  = ",mult);
+// let mult = arr.reduce((result , current) => {
+//   return result * current;
+// })
+// console.log("Multiplay  = ",mult);
