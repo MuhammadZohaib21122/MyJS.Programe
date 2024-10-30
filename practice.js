@@ -183,19 +183,19 @@ let arr = [];
 
 for (let i = 1; i <= n; i++) {
 
-     arr[i-1] = i;
+//      arr[i-1] = i;
   
-}
-console.log("Given number array = ",arr)
-//apply reduce method
-let sum = arr.reduce((result , current) => {
-  return result + current;
-})
-console.log("Sum = ",sum);
+// }
+// console.log("Given number array = ",arr)
+// //apply reduce method
+// let sum = arr.reduce((result , current) => {
+//   return result + current;
+// })
+// console.log("Sum = ",sum);
 
-// Factorial of n 
+// // Factorial of n 
 
-let mult = arr.reduce((result , current) => {
-  return result * current;
-})
-console.log("Multiplay  = ",mult);
+// let mult = arr.reduce((result , current) => {
+//   return result * current;
+// })
+// console.log("Multiplay  = ",mult);
