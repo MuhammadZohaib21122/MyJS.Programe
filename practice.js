@@ -198,4 +198,4 @@ console.log("Sum = ",sum);
 let mult = arr.reduce((result , current) => {
   return result * current;
 })
-// console.log("Multiplay  = ",mult);
+console.log("Multiplay  = ",mult);
