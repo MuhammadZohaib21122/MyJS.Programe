@@ -186,12 +186,12 @@ for (let i = 1; i <= n; i++) {
      arr[i-1] = i;
   
 }
-console.log("Given number array = ",arr)
-//apply reduce method
-let sum = arr.reduce((result , current) => {
-  return result + current;
-})
-console.log("Sum = ",sum);
+// console.log("Given number array = ",arr)
+// //apply reduce method
+// let sum = arr.reduce((result , current) => {
+//   return result + current;
+// })
+// console.log("Sum = ",sum);
 
 // Factorial of n 
 
