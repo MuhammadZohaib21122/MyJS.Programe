@@ -97,10 +97,10 @@ let studentn =["Muhammad Zohaib","Hamza","Ali","Abass","Jalal","Farhan"];
 // console.log(evenarray);
 
 // // Array method    Reduce
-// let arr =[1,2,3,4]
-// let result = arr.reduce((arrn ,current ) => {
-//   //return arrn + current ;
-//   return arrn > current ? arrn : current;   // find bigest value 
-// })
-// console.log(result)
+let arr =[1,2,3,4]
+let result = arr.reduce((arrn ,current ) => {
+  //return arrn + current ;
+  return arrn > current ? arrn : current;   // find bigest value 
+})
+console.log(result)
   
