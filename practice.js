@@ -178,24 +178,24 @@ function refreshPage() {
 // console.log(newarray);
 
 // Q: gain array from user and all array number plus using reduce method and using the reduce method to calculate product (mean multiply) of all number in the array
-// let n = prompt("Enter a number .");
-// let arr = [];
+let n = prompt("Enter a number .");
+let arr = [];
 
-// for (let i = 1; i <= n; i++) {
+for (let i = 1; i <= n; i++) {
 
-//      arr[i-1] = i;
+     arr[i-1] = i;
   
-// }
-// console.log("Given number array = ",arr)
-// //apply reduce method
-// let sum = arr.reduce((result , current) => {
-//   return result + current;
-// })
-// console.log("Sum = ",sum);
+}
+console.log("Given number array = ",arr)
+//apply reduce method
+let sum = arr.reduce((result , current) => {
+  return result + current;
+})
+console.log("Sum = ",sum);
 
-// // Factorial of n 
+// Factorial of n 
 
-// let mult = arr.reduce((result , current) => {
-//   return result * current;
-// })
-// console.log("Multiplay  = ",mult);
+let mult = arr.reduce((result , current) => {
+  return result * current;
+})
+console.log("Multiplay  = ",mult);
